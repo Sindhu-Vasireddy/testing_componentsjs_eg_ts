@@ -1,0 +1,11 @@
+{
+  "@context": [
+    "https://linkedsoftwaredependencies.org/bundles/npm/testingts/^1.0.1/components/context.jsonld"
+  ],
+  "@id": "npmd:testingts",
+  "@type": "Module",
+  "requireName": "testingts",
+  "import": [
+    "npmd:testingts/^1.0.1/dist/MyClass.jsonld"
+  ]
+}

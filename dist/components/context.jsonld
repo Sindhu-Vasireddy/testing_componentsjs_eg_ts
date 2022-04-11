@@ -1,0 +1,18 @@
+{
+  "@context": [
+    "https://linkedsoftwaredependencies.org/bundles/npm/componentsjs/^5.0.0/components/context.jsonld",
+    {
+      "npmd": "https://linkedsoftwaredependencies.org/bundles/npm/",
+      "t": "npmd:testingts/^1.0.0/",
+      "MyClass": {
+        "@id": "t:dist/MyClass.jsonld#MyClass",
+        "@prefix": true,
+        "@context": {
+          "name": {
+            "@id": "t:dist/MyClass.jsonld#MyClass_name"
+          }
+        }
+      }
+    }
+  ]
+}

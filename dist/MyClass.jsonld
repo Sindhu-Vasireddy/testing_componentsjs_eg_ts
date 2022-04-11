@@ -1,0 +1,35 @@
+{
+  "@context": [
+    "https://linkedsoftwaredependencies.org/bundles/npm/testingts/^1.0.1/components/context.jsonld"
+  ],
+  "@id": "npmd:testingts",
+  "components": [
+    {
+      "@id": "t:dist/MyClass.jsonld#MyClass",
+      "@type": "Class",
+      "requireElement": "MyClass",
+      "parameters": [
+        {
+          "@id": "t:dist/MyClass.jsonld#MyClass_name",
+          "range": "xsd:string"
+        }
+      ],
+      "memberFields": [
+        {
+          "@id": "t:dist/MyClass.jsonld#MyClass__member_name",
+          "memberFieldName": "name",
+          "range": "xsd:string"
+        },
+        {
+          "@id": "t:dist/MyClass.jsonld#MyClass__member_constructor",
+          "memberFieldName": "constructor"
+        }
+      ],
+      "constructorArguments": [
+        {
+          "@id": "t:dist/MyClass.jsonld#MyClass_name"
+        }
+      ]
+    }
+  ]
+}
