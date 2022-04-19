@@ -2,8 +2,8 @@
   "name": "testingts",
   "version": "1.0.1",
   "description": "",
-  "main": "dist/MyClass.js",
-  "types": "dist/MyClass.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "lsd:module": "https://linkedsoftwaredependencies.org/bundles/npm/testingts",
   "lsd:components": "dist/components/components.jsonld",
   "lsd:contexts": {
